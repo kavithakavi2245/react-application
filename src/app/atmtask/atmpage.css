@@ -1,0 +1,48 @@
+.form{
+    font-weight: bold;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 30px 70px;
+    margin-top: 100px;
+    margin-left: 35%;
+    background-color: aqua;
+}
+.input{
+    margin: 10px;
+    padding: 5px;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    border: black 2px solid;
+    text-decoration-line: underline;
+}
+#btn{
+    margin-left: 100px;
+}
+ ul,li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+ }
+ .logout{
+    display: flex;
+    flex-flow: row-reverse;
+ }
+ .lgbtn{
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+ }
+ .atmbtn{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+ }
