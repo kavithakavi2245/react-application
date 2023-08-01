@@ -7,6 +7,7 @@ import Type2 from './app/atmtask/type2'
 import Type3 from './app/atmtask/type3'
 import Atmtask from './app/atmtask/atmwithdrawpage'
 import Loginpage from './app/atmtask/loginpage'
+import Registor from './app/registor/registor'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
          <Route path='/captcha' element={<Type2/>}></Route>
          <Route path='/email' element={<Type3/>}></Route>
          <Route path='/withdraw' element={<Atmtask/>}></Route>
+         <Route path='/registor' element={<Registor/>}></Route>
       </Routes>
     </Router>
   </>
