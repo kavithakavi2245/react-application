@@ -2,11 +2,20 @@ import React, { useEffect, useState } from 'react'
 import './atmpage.css'
 import { useNavigate } from 'react-router-dom'
 
+
+
 export default function Loginpage() {
     const navigate=useNavigate();
     const [name,setName]=useState('')
     const [password,setPassword]=useState('')
+   
+    useEffect(()=>{
+      
+      localStorage.setItem("password",JSON.stringify(password))
+      localStorage.setItem("Username",JSON.stringify(name))
 
+    },[name,password])
+   
 
     const data=[
         {
@@ -65,6 +74,7 @@ export default function Loginpage() {
         const handlePassword=(e)=>{
             setPassword(e.target.value)
         }
+
     const HandleClick=()=>{    
             if(name == username[0] && password == userpassword [0] ){
               setTimeout(() => {
