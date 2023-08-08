@@ -1,0 +1,40 @@
+.tableform{
+    background-color: aqua;
+    margin: 0;
+    border: none;
+}
+.tableinput{
+    display: inline-block;
+    padding: 30px 50px 20px 50px;
+    background-color: gainsboro;
+    margin: 50px 580px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.button{
+    cursor: pointer;
+    margin:10px 10px 0px 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+.button:hover{
+    background-color: purple;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.data{
+    margin-left: 160px;
+    background-color: white;
+
+}
+.tabledata{
+    background-color: green;
+    margin: 0;
+    border: none;
+    min-height: 450px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
