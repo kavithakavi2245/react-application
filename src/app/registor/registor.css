@@ -1,0 +1,35 @@
+.tableform{
+    background-color: purple;
+    margin: 0;
+    border: none;
+}
+.tableinput{
+    display: inline-block;
+    padding: 30px 50px 20px 50px;
+    background-color: aqua;
+    margin: 80px 570px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.data{
+    margin-left: 160px;
+    background-color: white;
+
+}
+.tabledata{
+    background-color: blueviolet;
+    margin: 0;
+    border: none;
+    min-height: 380px;
+}
+.button{
+    cursor: pointer;
+    margin:10px 10px 0px 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+.button :hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+}

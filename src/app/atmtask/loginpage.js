@@ -90,13 +90,17 @@ export default function Loginpage() {
               alert('invalid')
             }
     }
+    const registor=()=>{
+        navigate('/registor')
+    }
   return (
     <>
      <div style={{textAlign:'center' , marginTop:'240px'}} className='form'>
         <h2 style={{textDecoration:'underline'}}> Login Page:</h2>
         <p>Enter your Name: <input type='text' defaultValue='Kavitha' onChange={handleName}></input></p>
         <p>Enter your password: <input type='password' defaultValue='123456789'onChange={handlePassword}></input></p>
-        <button onClick={HandleClick} style={{margin:'10px'}} className='btn'>SUBMIT</button>    
+        <button onClick={HandleClick} style={{margin:'10px'}} className='btn'>SUBMIT</button>  
+        <button onClick={registor} className='btn'>Registor</button>  
     </div> 
     </>
   )
